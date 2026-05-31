@@ -13,7 +13,7 @@ import InputTypeSelector from "./InputTypeSelector";
 import URLInput from "./inputs/URLInput";
 import TextInput from "./inputs/TextInput";
 import WiFiInput from "./inputs/WiFiInput";
-import vCardInput from "./inputs/vCardInput";
+import VCardInput from "./inputs/vCardInput";
 import ColorPicker from "./ColorPicker";
 import FrameConfig from "./FrameConfig";
 import QRPreview from "./QRPreview";
@@ -125,7 +125,7 @@ export default function QRGenerator() {
             <WiFiInput value={wifiData} onChange={setWifiData} />
           )}
           {inputType === "vcard" && (
-            <vCardInput value={vcardData} onChange={setVcardData} />
+            <VCardInput value={vcardData} onChange={setVcardData} />
           )}
         </div>
 

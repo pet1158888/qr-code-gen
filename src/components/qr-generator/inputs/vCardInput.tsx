@@ -1,11 +1,11 @@
 import { vCardConfig } from "@/lib/qr-utils";
 
-interface vCardInputProps {
+interface VCardInputProps {
   value: vCardConfig;
   onChange: (value: vCardConfig) => void;
 }
 
-export default function vCardInput({ value, onChange }: vCardInputProps) {
+export default function VCardInput({ value, onChange }: VCardInputProps) {
   return (
     <div className="space-y-4">
       <div className="grid grid-cols-2 gap-4">
