@@ -1,0 +1,67 @@
+## DESIGN.md Policy
+
+ก่อนสร้างหรือแก้ไข UI, layout, component, animation หรือ styling ใด ๆ ต้องอ่านและอ้างอิงไฟล์ `DESIGN.md` เสมอ
+
+ถือว่า `DESIGN.md` เป็น source of truth ด้าน design ของโปรเจกต์นี้
+
+## Required Design Checks
+
+ก่อนเริ่มงาน frontend ทุกครั้ง ต้องตรวจสอบ:
+
+* Color palette
+* Typography
+* Spacing system
+* Border radius
+* Shadow system
+* Animation guideline
+* Layout guideline
+* Responsive breakpoint
+* Component patterns
+* Accessibility rules
+* Dark mode rules
+* Branding consistency
+
+## UI Consistency Rules
+
+ห้าม:
+
+* เปลี่ยนโทนสีหลักของระบบ
+* ใช้ spacing หรือ sizing แบบสุ่ม
+* ใช้ component style ที่ขัดกับ DESIGN.md
+* สร้าง design language ใหม่เองโดยไม่จำเป็น
+* ใช้ animation ที่ไม่สอดคล้องกับ guideline
+
+## Priority Order
+
+ลำดับความสำคัญของ guideline:
+
+1. DESIGN.md
+2. web-design-guidelines skill
+3. frontend-design skill
+4. shadcn/ui best practices
+
+หาก guideline ขัดกัน ให้ยึด `DESIGN.md` เป็นหลักเสมอ
+
+## Design Workflow
+
+ก่อนแก้ UI ให้ทำตาม flow นี้:
+
+1. อ่าน DESIGN.md
+2. วิเคราะห์ design pattern เดิม
+3. ตรวจสอบ responsive behavior
+4. ตรวจสอบ component consistency
+5. จึงเริ่ม implement
+
+## Expected UI Quality
+
+UI ที่สร้างต้อง:
+
+* ดูทันสมัย
+* Responsive
+* Mobile-first
+* อ่านง่าย
+* Consistent
+* Reusable
+* Accessible
+* Maintainable
+* Production-ready
